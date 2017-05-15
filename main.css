@@ -1,0 +1,84 @@
+body, html{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Roboto', helvetica, arial, sans-serif;
+}
+
+img, object, video{
+	max-width: 100%;
+}
+
+header, footer{
+	display: block;
+	width: 100%;
+}
+
+.Udacity_logo{
+	padding: 20px;
+	width: 75px;
+	height: 75px;
+}
+
+.header_name{
+	padding: 10px;
+	float: right;
+	text-align: right;
+	color:#2d3c49;
+}
+
+hr{
+	color: #2d3c49;
+	width: 100%;
+}
+
+.content{
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.hero{
+	float: right;
+	width: 100%;
+	position: relative;
+	background-image: url("images/lisboa.jpg");
+	background-size: cover;
+	height: 400px;
+}
+
+.featured{
+	display: block;
+	color: #7d97ad;
+	padding-left: 10px;
+	padding-bottom: 0px;
+	font-weight: bold;
+
+}
+
+.work {
+	color: #2d3c49;
+	display: block;
+	padding-left: 10px;
+	padding-top: 0px;
+	float: left;
+	width: 31%;
+	text-align: center;
+}
+
+.example_image{
+	height: 75%;
+	width: 100%;
+}
+
+.footer{
+	height: 75px;
+	display: block;
+	width: 100%;
+	background-color: #02b3e4;
+	color: white;
+	text-align: center;
+	padding-right: 10px;
+	padding-top: 25px;
+}
