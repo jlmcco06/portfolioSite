@@ -1,45 +1,49 @@
-body, html{
+body, 
+html {
 	margin: 0;
 	padding: 0;
 }
 
 body {
-	font-family: 'Roboto', helvetica, arial, sans-serif;
+	font-family: "Roboto", helvetica, arial, sans-serif;
 }
 
-img, object, video{
+img, 
+object, 
+video {
 	max-width: 100%;
 }
 
-header, footer{
+header {
 	display: block;
 	width: 100%;
+	border-bottom: solid 1px #2d3c49; 
 }
 
-.Udacity_logo{
+.udacity_logo {
 	padding: 20px;
 	width: 75px;
 	height: 75px;
 }
 
-.header_name{
+.header_name {
 	padding: 10px;
 	float: right;
 	text-align: right;
 	color:#2d3c49;
 }
 
-hr{
+hr {
 	color: #2d3c49;
 	width: 100%;
 }
 
-.content{
+.content {
 	padding-top: 20px;
 	padding-bottom: 20px;
 }
 
-.hero{
+.hero {
 	float: right;
 	width: 100%;
 	position: relative;
@@ -48,11 +52,11 @@ hr{
 	height: 400px;
 }
 
-.featured{
+.featured {
 	display: block;
 	color: #7d97ad;
 	padding-left: 10px;
-	padding-bottom: 0px;
+	padding-bottom: 0;
 	font-weight: bold;
 
 }
@@ -67,12 +71,12 @@ hr{
 	text-align: center;
 }
 
-.example_image{
+.example_image {
 	height: 75%;
 	width: 100%;
 }
 
-.footer{
+.footer {
 	height: 75px;
 	display: block;
 	width: 100%;
@@ -81,4 +85,25 @@ hr{
 	text-align: center;
 	padding-right: 10px;
 	padding-top: 25px;
+}
+
+@media screen and (max-width: 500px) {
+	.featured {
+	display: block;
+	color: #7d97ad;
+	text-align: center;
+	font-weight: bold;
+	padding-left: 0px;
+}
+
+	.work {
+	color: #2d3c49;
+	display: block;
+	float: left;
+	width: 100%;
+	text-align: center;
+	padding-left: 0px;
+	font-weight: bolder;
+}
+
 }
