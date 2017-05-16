@@ -38,18 +38,39 @@ hr {
 	width: 100%;
 }
 
-.content {
-	padding-top: 20px;
-	padding-bottom: 20px;
+.hero_container {
+	width: 100%;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
 }
 
 .hero {
+	display: block;
 	float: right;
 	width: 100%;
 	position: relative;
 	background-image: url("images/lisboa.jpg");
 	background-size: cover;
 	height: 400px;
+}
+
+.content {
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	flex-direction: row;
+	-webkit-align-items: center;
+	align-items: center;
+	-webkit-justify-content: center;
+	justify-content: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 
 .featured {
