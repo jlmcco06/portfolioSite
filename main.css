@@ -1,11 +1,9 @@
 body, 
 html {
-	margin: 0;
-	padding: 0;
-}
-
-body {
 	font-family: "Roboto", helvetica, arial, sans-serif;
+	max-width: 100%;
+	margin: 0;
+	padding: 0; 
 }
 
 img, 
@@ -21,24 +19,21 @@ header {
 }
 
 .udacity_logo {
-	padding: 20px;
+	padding: 1em;
 	width: 75px;
 	height: 75px;
 }
 
 .header_name {
-	padding: 10px;
+	display: block;
+	padding: 1em;
 	float: right;
 	text-align: right;
 	color:#2d3c49;
 }
 
-hr {
-	color: #2d3c49;
-	width: 100%;
-}
-
 .hero_container {
+	padding-top: 15px;
 	width: 100%;
 	display: -webkit-flex;
 	display: flex;
@@ -52,12 +47,11 @@ hr {
 
 .hero {
 	display: block;
-	float: right;
 	width: 100%;
 	position: relative;
 	background-image: url("images/lisboa.jpg");
 	background-size: cover;
-	height: 400px;
+	height: 20em;
 }
 
 .content {
@@ -69,14 +63,17 @@ hr {
 	align-items: center;
 	-webkit-justify-content: center;
 	justify-content: center;
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	padding-left: 0;
+	padding-right: 0;
+	border-bottom: solid 1px #2d3c49;
 }
 
 .featured {
 	display: block;
 	color: #7d97ad;
-	padding-left: 10px;
+	padding-left: 1em;
 	padding-bottom: 0;
 	font-weight: bold;
 
@@ -85,10 +82,10 @@ hr {
 .work {
 	color: #2d3c49;
 	display: block;
-	padding-left: 10px;
-	padding-top: 0px;
+	padding-left: 1em;
+	padding-top: 0;
 	float: left;
-	width: 31%;
+	width: 30%;
 	text-align: center;
 }
 
@@ -98,14 +95,14 @@ hr {
 }
 
 .footer {
-	height: 75px;
+	height: 4em;
 	display: block;
 	width: 100%;
 	background-color: #02b3e4;
 	color: white;
 	text-align: center;
-	padding-right: 10px;
-	padding-top: 25px;
+	padding-top: 1em;
+
 }
 
 @media screen and (max-width: 500px) {
@@ -114,7 +111,7 @@ hr {
 	color: #7d97ad;
 	text-align: center;
 	font-weight: bold;
-	padding-left: 0px;
+	padding-left: 0;
 }
 
 	.work {
@@ -123,7 +120,7 @@ hr {
 	float: left;
 	width: 100%;
 	text-align: center;
-	padding-left: 0px;
+	padding-left: 0;
 	font-weight: bolder;
 }
 
